@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.logo{
+    margin: 20px auto;
+    width: 15%;
+    aspect-ratio: 1/1;
+}
+
+h1{
+    text-align: center;
+    color: #22B7F2;
+    padding-bottom: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #22B7F2;
+    padding: 25px;
+}
+
+li{
+    text-align: center;
+    list-style-type: none;
+    width: 20%;
+    height: 40px;
+}
